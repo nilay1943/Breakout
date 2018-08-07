@@ -1,0 +1,494 @@
+07 Aug 2018, 16:15:00.197 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] System Logger is initialized
+07 Aug 2018, 16:15:00.202 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Logging System Info
+07 Aug 2018, 16:15:00.203 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] CPU cores: 4
+07 Aug 2018, 16:15:00.205 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Free Memory: 75MB
+07 Aug 2018, 16:15:00.206 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Max Memory: 1348MB
+07 Aug 2018, 16:15:00.206 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Total Memory: 92MB
+07 Aug 2018, 16:15:00.214 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] System Properties:
+07 Aug 2018, 16:15:00.216 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.cpu.isalist=amd64
+07 Aug 2018, 16:15:00.216 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.desktop=windows
+07 Aug 2018, 16:15:00.217 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.io.unicode.encoding=UnicodeLittle
+07 Aug 2018, 16:15:00.217 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.cpu.endian=little
+07 Aug 2018, 16:15:00.217 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+07 Aug 2018, 16:15:00.217 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] file.separator=\
+07 Aug 2018, 16:15:00.218 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vendor=Oracle Corporation
+07 Aug 2018, 16:15:00.218 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes
+07 Aug 2018, 16:15:00.219 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.ext.dirs=C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+07 Aug 2018, 16:15:00.219 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.version=1.8.0_171
+07 Aug 2018, 16:15:00.219 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.info=mixed mode
+07 Aug 2018, 16:15:00.220 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] awt.toolkit=sun.awt.windows.WToolkit
+07 Aug 2018, 16:15:00.220 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.language=en
+07 Aug 2018, 16:15:00.220 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.specification.vendor=Oracle Corporation
+07 Aug 2018, 16:15:00.220 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.java.command=Breakout
+07 Aug 2018, 16:15:00.221 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.home=C:\Program Files\Java\jdk1.8.0_171\jre
+07 Aug 2018, 16:15:00.221 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.arch.data.model=64
+07 Aug 2018, 16:15:00.221 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.specification.version=1.8
+07 Aug 2018, 16:15:00.222 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.class.path=C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Users\nilay\Documents\Programming\Brekout\out\production\Brekout;C:\Users\nilay\Documents\Programming\Brekout\lib\FXGL-0.2.5-uber.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.2\lib\idea_rt.jar
+07 Aug 2018, 16:15:00.222 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.name=nilay
+07 Aug 2018, 16:15:00.222 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] file.encoding=UTF-8
+07 Aug 2018, 16:15:00.223 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.specification.version=1.8
+07 Aug 2018, 16:15:00.223 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.awt.printerjob=sun.awt.windows.WPrinterJob
+07 Aug 2018, 16:15:00.223 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.timezone=America/New_York
+07 Aug 2018, 16:15:00.224 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.home=C:\Users\nilay
+07 Aug 2018, 16:15:00.224 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] os.version=10.0
+07 Aug 2018, 16:15:00.224 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+07 Aug 2018, 16:15:00.224 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.specification.name=Java Platform API Specification
+07 Aug 2018, 16:15:00.225 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.class.version=52.0
+07 Aug 2018, 16:15:00.225 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.library.path=C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\nilay\AppData\Local\Microsoft\WindowsApps;C:\Users\nilay\AppData\Roaming\npm;C:\Users\nilay\AppData\Local\atom\bin;.
+07 Aug 2018, 16:15:00.225 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.jnu.encoding=Cp1252
+07 Aug 2018, 16:15:00.225 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] os.name=Windows 10
+07 Aug 2018, 16:15:00.226 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.variant=
+07 Aug 2018, 16:15:00.226 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.specification.vendor=Oracle Corporation
+07 Aug 2018, 16:15:00.226 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.io.tmpdir=C:\Users\nilay\AppData\Local\Temp\
+07 Aug 2018, 16:15:00.226 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] line.separator=
+
+07 Aug 2018, 16:15:00.227 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed
+07 Aug 2018, 16:15:00.227 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] os.arch=amd64
+07 Aug 2018, 16:15:00.227 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] javafx.runtime.version=8.0.171-b11
+07 Aug 2018, 16:15:00.227 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+07 Aug 2018, 16:15:00.228 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.runtime.version=1.8.0_171-b11
+07 Aug 2018, 16:15:00.228 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.specification.name=Java Virtual Machine Specification
+07 Aug 2018, 16:15:00.228 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.dir=C:\Users\nilay\Documents\Programming\Brekout
+07 Aug 2018, 16:15:00.228 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.country=US
+07 Aug 2018, 16:15:00.229 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] user.script=
+07 Aug 2018, 16:15:00.229 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.java.launcher=SUN_STANDARD
+07 Aug 2018, 16:15:00.229 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.os.patch.level=
+07 Aug 2018, 16:15:00.229 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+07 Aug 2018, 16:15:00.230 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] file.encoding.pkg=sun.io
+07 Aug 2018, 16:15:00.230 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] path.separator=;
+07 Aug 2018, 16:15:00.230 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.vendor=Oracle Corporation
+07 Aug 2018, 16:15:00.230 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vendor.url=http://java.oracle.com/
+07 Aug 2018, 16:15:00.230 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_171\jre\bin
+07 Aug 2018, 16:15:00.231 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.vm.version=25.171-b11
+07 Aug 2018, 16:15:00.231 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] java.runtime.name=Java(TM) SE Runtime Environment
+07 Aug 2018, 16:15:00.231 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] javafx.version=8.0.171
+07 Aug 2018, 16:15:00.235 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] FXGL-0.2.5
+07 Aug 2018, 16:15:00.235 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] JavaFX-1.8.0_92-b14
+07 Aug 2018, 16:15:00.236 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] JBox2D-2.3.0-fxgl
+07 Aug 2018, 16:15:00.236 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Kotlin-1.0.3
+07 Aug 2018, 16:15:00.237 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Source code and latest versions at: https://github.com/AlmasB/FXGL
+07 Aug 2018, 16:15:00.237 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread]              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+07 Aug 2018, 16:15:00.244 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Starting JavaFX
+07 Aug 2018, 16:15:00.255 [  FINER] [   FXGL.SystemLogger] [JavaFX-Launcher] Initializing FXGL
+07 Aug 2018, 16:15:00.282 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Starting FXGL
+07 Aug 2018, 16:15:00.282 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Initializing system properties
+07 Aug 2018, 16:15:00.340 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sound.notification = system/notification.wav
+07 Aug 2018, 16:15:00.341 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] asset.cache.size = 35
+07 Aug 2018, 16:15:00.342 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] fs.profiledir = profiles/
+07 Aug 2018, 16:15:00.345 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] url.pom = https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+07 Aug 2018, 16:15:00.346 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] fs.datafile.ext = .dat
+07 Aug 2018, 16:15:00.348 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sound.menu.back = menu/back.wav
+07 Aug 2018, 16:15:00.349 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sound.menu.select = menu/select.wav
+07 Aug 2018, 16:15:00.349 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] url.github = https://github.com/AlmasB/FXGL
+07 Aug 2018, 16:15:00.349 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] physics.ppm = 50
+07 Aug 2018, 16:15:00.350 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] ui.css = fxgl.css
+07 Aug 2018, 16:15:00.350 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] version.check.days = 7
+07 Aug 2018, 16:15:00.350 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] fs.savefile.ext = .sav
+07 Aug 2018, 16:15:00.350 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] ui.font = Copperplate_Gothic_Light_Regular.ttf
+07 Aug 2018, 16:15:00.351 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] fs.savedir = saves/
+07 Aug 2018, 16:15:00.351 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] fs.profilename = user.profile
+07 Aug 2018, 16:15:00.351 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] ui.icon.name = fxgl_icon.png
+07 Aug 2018, 16:15:00.352 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] sound.menu.press = menu/press.wav
+07 Aug 2018, 16:15:00.352 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Initializing user properties
+07 Aug 2018, 16:15:00.352 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] User properties not found. Using system
+07 Aug 2018, 16:15:00.353 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Initializing app settings
+07 Aug 2018, 16:15:01.672 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] FXGL configuration complete
+07 Aug 2018, 16:15:01.673 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] FXGL configuration took: 1.390799143 sec
+07 Aug 2018, 16:15:01.673 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Checking for updates
+07 Aug 2018, 16:15:13.156 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:13.163 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Resetting FXGL application
+07 Aug 2018, 16:15:16.192 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Resuming main loop
+07 Aug 2018, 16:15:56.375 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.376 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.376 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.377 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.377 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.378 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.379 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.380 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.380 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.380 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.381 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.381 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.382 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.382 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.383 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.383 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.384 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.385 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.385 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.386 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.386 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.387 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.387 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.388 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.388 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.389 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.389 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.390 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.391 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.392 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.393 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.393 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.394 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.395 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.395 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.396 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.397 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.398 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.399 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.399 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.400 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.401 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.401 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.402 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.402 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.402 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.403 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.403 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.404 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.404 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.404 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.405 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.405 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.405 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.406 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.406 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.406 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.407 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.407 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.407 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.408 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.408 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.409 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.409 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.409 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.409 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.410 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.410 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.411 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.411 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.411 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.412 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.412 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.413 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.413 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.414 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.414 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.415 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.415 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.416 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.416 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.417 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.417 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.418 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.419 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.419 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.420 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.420 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.421 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.422 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.422 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.423 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.424 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.424 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.425 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.425 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.426 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.426 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.427 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.427 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.428 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.428 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.428 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.429 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.429 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.430 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.430 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.430 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.430 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.430 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.431 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.431 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.431 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.431 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.432 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.432 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.432 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.432 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.433 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.433 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.433 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.433 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.434 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.434 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.435 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.435 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.436 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.436 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.436 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.437 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.437 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.437 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.438 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.438 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.438 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.439 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.439 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.439 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.440 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.440 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.440 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.440 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.440 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.441 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.441 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.441 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.441 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.442 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.442 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.442 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.442 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.442 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.443 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.443 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.443 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.443 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.443 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.444 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.444 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.445 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.445 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.445 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.445 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.445 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.446 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.446 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.446 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.446 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.446 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.447 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.447 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.447 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.447 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.448 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.448 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.448 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.448 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.449 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.449 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.449 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.449 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.450 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.450 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.450 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.450 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.450 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.451 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.451 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.451 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.451 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.451 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.452 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.452 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.452 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.452 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.452 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.453 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.453 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.453 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.454 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.461 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.461 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.461 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.462 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.462 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.462 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.462 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.462 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.463 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.473 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.477 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.477 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.478 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.478 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.478 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.479 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.479 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.480 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.480 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.480 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.480 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.481 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.481 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.481 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.482 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.482 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.482 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.483 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.483 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.484 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.484 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.484 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.485 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.485 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.485 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.486 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.486 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.486 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.487 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.487 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.487 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.488 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.488 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.489 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.489 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.489 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.490 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.490 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.490 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.491 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.491 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.491 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.491 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.492 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.492 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.492 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.493 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.493 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.493 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.493 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.494 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.494 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.494 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.495 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.495 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.495 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.496 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.496 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.496 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.497 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.497 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.497 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.497 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.497 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.498 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.498 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.498 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.498 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.498 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.499 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.499 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.499 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.499 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.500 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.500 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.501 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.501 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.501 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.501 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.502 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.502 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.502 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.502 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.502 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.503 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.504 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.504 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.504 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.504 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.504 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.505 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.506 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.507 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.507 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.507 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.508 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.508 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.508 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.509 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.509 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.509 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.510 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.510 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.510 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.510 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.510 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.511 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.512 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.512 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.512 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.513 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.513 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.513 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.513 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.514 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.514 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.514 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.514 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.514 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.515 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.516 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.516 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.516 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.516 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.516 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.517 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.517 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.518 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.519 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.519 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.520 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.521 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.521 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.522 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.522 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.523 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.523 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.523 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.523 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.524 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.524 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.524 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.525 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.525 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.525 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.526 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.527 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.529 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.529 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.530 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.530 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:15:56.530 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:16:27.973 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Pausing main loop
+07 Aug 2018, 16:16:29.613 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Resuming main loop
+07 Aug 2018, 16:16:29.613 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Exiting Normally
+07 Aug 2018, 16:16:29.613 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Processed Frames: 3541
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Average FPS: 66.68822366563118
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Average Performance: 4050.641061846936
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Average Memory Usage: 38.918190002441406 MB
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Min Memory Usage: 18.55908966064453 MB
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Max Memory Usage: 64.18221282958984 MB
+07 Aug 2018, 16:16:29.614 [   INFO] [   FXGL.SystemLogger] [JavaFX Application Thread] Estimated GC runs: 3
+07 Aug 2018, 16:16:29.649 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Exiting FXGL
+07 Aug 2018, 16:16:29.649 [  FINER] [   FXGL.SystemLogger] [JavaFX Application Thread] Logger is closing

@@ -1,0 +1,16 @@
+16:14:42.241 [JavaFX App] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+16:14:42.248 [JavaFX App] INFO  FXGL                 - FXGL configuration complete
+16:14:42.248 [JavaFX App] DEBUG FXGL                 - Loading FXGL system data
+16:14:42.250 [JavaFX App] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+16:14:42.298 [JavaFX App] DEBUG FS                   - Reading from: system\fxgl.bundle
+16:14:42.320 [JavaFX App] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+16:14:42.320 [JavaFX App] DEBUG Bundle               - Logging bundle: FXGL
+16:14:42.321 [JavaFX App] DEBUG Bundle               - FXGL.version.check=2016-09-29
+16:14:42.473 [JavaFX App] DEBUG FXGLEventBus         - Service [EventBus] initialized
+16:14:42.493 [JavaFX App] DEBUG FXGLExecutor         - Service [Executor] initialized
+16:14:42.494 [JavaFX App] DEBUG IOTask               - Showing dialog
+16:14:42.496 [pool-3-thr] DEBUG IOTask               - Executing task: NoName
+16:14:42.497 [pool-3-thr] DEBUG IOTask               - Executing task: NoName
+16:14:45.010 [pool-3-thr] DEBUG IOTask               - Executing task: NoName
+16:14:45.039 [JavaFX App] DEBUG IOTask               - succeed(): Dismissing dialog
+16:14:45.039 [JavaFX App] DEBUG IOTask               - Task succeeded: NoName
