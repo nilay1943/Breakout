@@ -1,0 +1,2018 @@
+21:39:36.847 [JavaFX App] DEBUG FXGLLoggerFactory    - Service [LoggerFactory] initialized
+21:39:36.857 [JavaFX App] INFO  FXGL                 - FXGL configuration complete
+21:39:36.857 [JavaFX App] DEBUG FXGL                 - Loading FXGL system data
+21:39:36.861 [JavaFX App] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+21:39:36.864 [JavaFX App] DEBUG FS                   - Reading from: system\fxgl.bundle
+21:39:36.869 [JavaFX App] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+21:39:36.869 [JavaFX App] DEBUG Bundle               - Logging bundle: FXGL
+21:39:36.870 [JavaFX App] DEBUG Bundle               - FXGL.version.check=2016-09-29
+21:39:36.871 [JavaFX App] DEBUG GameApplication      - Starting Game Application
+21:39:36.872 [JavaFX App] DEBUG FXGLEventBus         - Service [EventBus] initialized
+21:39:36.876 [JavaFX App] DEBUG FXGLExecutor         - Service [Executor] initialized
+21:39:36.879 [JavaFX App] DEBUG GameWorld            - Game world initialized
+21:39:36.923 [JavaFX App] DEBUG PhysicsWorld         - Physics world initialized
+21:39:36.946 [JavaFX App] DEBUG GameScene            - Game scene initialized: 900.0x900.0
+21:39:36.978 [JavaFX App] DEBUG AssetLoader          - Service [AssetLoader] initialized
+21:39:36.979 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/system/notification.wav
+21:39:37.019 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+21:39:37.029 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+21:39:37.031 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+21:39:37.034 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+21:39:37.091 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl.css
+21:39:37.092 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+21:39:37.133 [JavaFX App] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+21:39:37.148 [JavaFX App] DEBUG FXGLDisplay          - App size > screen size
+21:39:37.152 [JavaFX App] DEBUG FXGLDisplay          - Target size: DoubleProperty [value: 900.0] x DoubleProperty [value: 900.0] @ 1.0
+21:39:37.152 [JavaFX App] DEBUG FXGLDisplay          - New size:    728.0 x 728.0 @ DoubleProperty [value: 0.8088888888888889]
+21:39:37.153 [JavaFX App] DEBUG FXGLDisplay          - Service [Display] initialized
+21:39:37.154 [JavaFX App] DEBUG FXGLDisplay          - Using CSS: CSS(externalForm=jar:file:/C:/Users/Nilay/Documents/Computer%20Science/Projects/Brekout/lib/FXGL-0.2.5-uber.jar!/assets/ui/css/fxgl_dark.css)
+21:39:37.161 [JavaFX App] DEBUG FXGLInput            - Service [Input] initialized
+21:39:37.163 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Screenshot - P
+21:39:37.163 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Developer Options - CTRL+0
+21:39:37.163 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Left - A
+21:39:37.163 [JavaFX App] DEBUG FXGLInput            - Registered new binding: Right - D
+21:39:37.163 [JavaFX App] DEBUG FXGLInput            - Registered new binding: SKIP - C
+21:39:37.164 [JavaFX App] DEBUG FXGLInput            - Registered new binding: StartGame - PRIMARY
+21:39:37.165 [JavaFX App] DEBUG GameApplication      - Initializing global event handlers
+21:39:37.180 [JavaFX App] DEBUG FXGLMasterTimer      - Service [MasterTimer] initialized
+21:39:37.195 [JavaFX App] DEBUG FXGLEventBus         - Firing event: SaveEvent
+21:39:37.197 [JavaFX App] DEBUG FXGLInput            - Saving data to profile
+21:39:37.197 [JavaFX App] DEBUG Bundle               - Logging bundle: input
+21:39:37.197 [JavaFX App] DEBUG Bundle               - input.StartGame=PRIMARY
+21:39:37.197 [JavaFX App] DEBUG Bundle               - input.Right=D
+21:39:37.197 [JavaFX App] DEBUG Bundle               - input.Screenshot=P
+21:39:37.198 [JavaFX App] DEBUG Bundle               - input.SKIP=C
+21:39:37.198 [JavaFX App] DEBUG Bundle               - input.Developer Options=CTRL+0
+21:39:37.198 [JavaFX App] DEBUG Bundle               - input.Left=A
+21:39:37.198 [JavaFX App] DEBUG FXGLDisplay          - Saving data to profile
+21:39:37.198 [JavaFX App] DEBUG Bundle               - Logging bundle: scene
+21:39:37.198 [JavaFX App] DEBUG Bundle               - scene.sizeW=900.0
+21:39:37.198 [JavaFX App] DEBUG Bundle               - scene.sizeH=900.0
+21:39:37.199 [JavaFX App] DEBUG FXGLAudioPlayer      - Service [AudioPlayer] initialized
+21:39:37.199 [JavaFX App] DEBUG FXGLAudioPlayer      - Saving data to profile
+21:39:37.200 [JavaFX App] DEBUG Bundle               - Logging bundle: audio
+21:39:37.200 [JavaFX App] DEBUG Bundle               - audio.musicVolume=0.5
+21:39:37.200 [JavaFX App] DEBUG Bundle               - audio.soundVolume=0.5
+21:39:37.200 [JavaFX App] DEBUG AchievementManager   - Service [AchievementManager] initialized
+21:39:37.200 [JavaFX App] DEBUG AchievementManager   - Saving data to profile
+21:39:37.201 [JavaFX App] DEBUG Bundle               - Logging bundle: achievement
+21:39:37.201 [JavaFX App] DEBUG FXGLMasterTimer      - Saving data to profile
+21:39:37.201 [JavaFX App] DEBUG Bundle               - Logging bundle: timer
+21:39:37.201 [JavaFX App] DEBUG Bundle               - timer.playtime=0
+21:39:37.201 [JavaFX App] DEBUG GameApplication      - Starting new game
+21:39:37.202 [JavaFX App] DEBUG GameApplication      - Initializing App
+21:39:37.203 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:37.203 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:37.203 [JavaFX App] DEBUG FXGLMasterTimer      - Stopping master timer
+21:39:37.203 [JavaFX App] DEBUG GameApplication      - State: STARTUP -> PAUSED
+21:39:37.204 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESET]
+21:39:37.204 [JavaFX App] DEBUG GameWorld            - Resetting game world
+21:39:37.204 [JavaFX App] TRACE EntityWorld          - Resetting entity world
+21:39:37.205 [JavaFX App] DEBUG PhysicsWorld         - Resetting physics world
+21:39:37.205 [JavaFX App] DEBUG GameScene            - Resetting game scene
+21:39:37.205 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:37.205 [JavaFX App] DEBUG FXGLMasterTimer      - Resetting ticks and clearing all actions
+21:39:37.255 [JavaFX App] DEBUG GameApplication      - State: PAUSED -> LOADING
+21:39:37.303 [JavaFX App] DEBUG GameApplication      - Starting FXGL Init Thread
+21:39:37.304 [FXGL Init ] DEBUG InitAppTask          - Initializing Assets
+21:39:37.309 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/ball.png
+21:39:37.314 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/brick.png
+21:39:37.316 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/Errorbrick.png
+21:39:37.317 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/jail.jpg
+21:39:37.339 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/paddle.png
+21:39:37.340 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/spawnbrick.png
+21:39:37.341 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/speedbrick.png
+21:39:37.342 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/textures/strongbrick.png
+21:39:37.443 [JavaFX App] DEBUG FXGLDisplay          - Showing stage
+21:39:37.443 [JavaFX App] DEBUG FXGLDisplay          - Root size: 728.0x728.0
+21:39:37.444 [JavaFX App] DEBUG FXGLDisplay          - Scene size: 728.0x728.0
+21:39:37.444 [JavaFX App] DEBUG FXGLDisplay          - Stage size: 744.0x767.0
+21:39:37.555 [JavaFX App] INFO  GameApplication      - GameApplication start took: 0.684463 sec
+21:39:37.686 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/back.wav
+21:39:37.686 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/press.wav
+21:39:37.686 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/menu/select.wav
+21:39:37.686 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/sounds/system/notification.wav
+21:39:37.912 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/text/breakout0.txt
+21:39:37.912 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/text/breakout1.txt
+21:39:37.913 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/text/breakout2.txt
+21:39:37.913 [FXGL Init ] DEBUG AssetLoader          - Loading from disk: /assets/text/breakout3.txt
+21:39:38.099 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/Copperplate_Gothic_Light_Regular.ttf
+21:39:38.292 [FXGL Init ] DEBUG InitAppTask          - Initializing Game
+21:39:38.294 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/text/breakout0.txt
+21:39:38.310 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/speedbrick.png
+21:39:38.316 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:38.316 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/strongbrick.png
+21:39:38.317 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:38.318 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/strongbrick.png
+21:39:38.319 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/jail.jpg
+21:39:38.320 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/paddle.png
+21:39:38.321 [FXGL Init ] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+21:39:38.322 [FXGL Init ] DEBUG InitAppTask          - Initializing Physics
+21:39:38.323 [FXGL Init ] DEBUG InitAppTask          - Initializing UI
+21:39:38.326 [FXGL Init ] DEBUG GameScene            - Adding UI node: Text[text="Score: 0", x=0.0, y=0.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=24.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:38.326 [FXGL Init ] DEBUG GameScene            - Adding UI node: Text[text="Orbies: 3", x=0.0, y=0.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=24.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:38.326 [FXGL Init ] DEBUG InitAppTask          - Initialization Complete
+21:39:38.327 [FXGL Init ] INFO  InitAppTask          - Game init took: 1.021896916 sec
+21:39:38.327 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=INIT_APP_COMPLETE]
+21:39:38.328 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+21:39:38.328 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:38.328 [JavaFX App] DEBUG FXGLMasterTimer      - Starting master timer
+21:39:38.328 [JavaFX App] DEBUG GameApplication      - State: LOADING -> PLAYING
+21:39:38.334 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.334 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.335 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.337 [JavaFX App] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+21:39:38.341 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.341 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.385 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.385 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.386 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.386 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.386 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.386 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.386 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.386 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.387 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.387 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.387 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.387 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.387 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.387 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.388 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.388 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.388 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.388 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.388 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.388 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.388 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.388 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.388 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.388 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.389 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.389 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.389 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.389 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.390 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.390 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:38.390 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:38.390 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:38.391 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:38.391 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.003 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.003 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.004 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.004 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.004 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.005 [JavaFX App] TRACE Entity               - Removing all components
+21:39:40.005 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.005 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.005 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.005 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.005 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.006 [JavaFX App] TRACE Entity               - Removing all components
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.006 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.006 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.006 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.006 [JavaFX App] TRACE Entity               - Removing all components
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.006 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.006 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.006 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.006 [JavaFX App] TRACE Entity               - Removing all components
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.006 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.007 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.007 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.007 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.007 [JavaFX App] TRACE Entity               - Removing all components
+21:39:40.007 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/text/breakout1.txt
+21:39:40.008 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.009 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.009 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.009 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.010 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.010 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.010 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.011 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.011 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.012 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.012 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.107 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.118 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.119 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.134 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.135 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png
+21:39:40.136 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.145 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.154 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.160 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/spawnbrick.png
+21:39:40.169 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+21:39:40.171 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.171 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.171 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.172 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.172 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.172 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.172 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.173 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.173 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.173 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.173 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.174 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.174 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.174 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.174 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.175 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.175 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.175 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.175 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.175 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.176 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.176 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.176 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.176 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.177 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.177 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.177 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.177 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.177 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.178 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.178 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.178 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.178 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.179 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.179 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.179 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.179 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.179 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.180 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.181 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.181 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.181 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.181 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.182 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.182 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.183 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.183 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.183 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.184 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.184 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.184 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.185 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.185 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.185 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.185 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.186 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.186 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.187 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.187 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.187 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.187 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.188 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.188 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.188 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.188 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.188 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.188 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.189 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.189 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.189 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.189 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.189 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.189 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.189 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.190 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.190 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:40.190 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:40.190 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:40.190 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:40.190 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:40.190 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:40.191 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:40.191 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:40.191 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:40.191 [JavaFX App] TRACE Entity               - Removing all components
+21:39:44.718 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:44.718 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:44.719 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:44.719 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:44.719 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:44.719 [JavaFX App] TRACE Entity               - Removing all components
+21:39:46.179 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+21:39:46.195 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:46.195 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:46.195 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:46.195 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:46.195 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:46.195 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:46.195 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:46.195 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:46.195 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:46.195 [JavaFX App] TRACE Entity               - Removing all components
+21:39:50.755 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:50.755 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:50.756 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:50.756 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:50.757 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:50.757 [JavaFX App] TRACE Entity               - Removing all components
+21:39:52.227 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+21:39:52.243 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.244 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.244 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.244 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.245 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.245 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.245 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.245 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.246 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.246 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.246 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.246 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.246 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.246 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.247 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.247 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.248 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.248 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.248 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.249 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.249 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.249 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.250 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.250 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.251 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.251 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.252 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.252 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.252 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.252 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.253 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.253 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.253 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.253 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.253 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.253 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.254 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.254 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.254 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.254 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.254 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.254 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.254 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.254 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.255 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.255 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.255 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.255 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.255 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.255 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.256 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.256 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.256 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.256 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.256 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.256 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.256 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.256 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.257 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.257 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.257 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.257 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.258 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.258 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.258 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.258 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.259 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.259 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.259 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.259 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.259 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.259 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.260 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.260 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.260 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.260 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.260 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.260 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.260 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.260 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.261 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.261 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.261 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.261 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.262 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.262 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.262 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.262 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.263 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.263 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.263 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.263 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.264 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.264 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.264 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.264 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.265 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.265 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.265 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.265 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.265 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.265 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.265 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.265 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.266 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.266 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.266 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.266 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.266 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.266 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.266 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.266 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.266 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.267 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.267 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.267 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.267 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.267 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.267 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.267 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.267 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.267 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.268 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.268 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.268 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.268 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.268 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.269 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.269 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.269 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.269 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.269 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.269 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.269 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.270 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.270 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.270 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.270 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.270 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.270 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.270 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.270 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.270 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.270 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.271 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.271 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.271 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.271 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.271 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.271 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.271 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.271 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.272 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.272 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.272 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.272 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.272 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.272 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.273 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.273 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.273 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.273 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.273 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.273 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.273 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.274 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.274 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.274 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.274 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.274 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.274 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.274 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.274 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.274 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.274 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.275 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.275 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.275 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.275 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.276 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.276 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.277 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.277 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.277 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.277 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.277 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.277 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.278 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.278 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.278 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.279 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.279 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.279 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.279 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.279 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.280 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.280 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.280 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.280 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.280 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.280 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.281 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.281 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.281 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.281 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.281 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.281 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.282 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.282 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.282 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.282 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.282 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.282 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.283 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.283 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.283 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.283 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.283 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.283 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.283 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.283 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.284 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.284 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.284 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.284 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.284 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.284 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.285 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.285 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.285 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.285 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.285 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.285 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.286 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.286 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.286 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.286 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.287 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.287 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.287 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.287 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.287 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.287 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.288 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.288 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.288 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.288 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.289 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.289 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.289 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.289 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.289 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.289 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.289 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.290 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.290 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.290 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.290 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.290 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.290 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.291 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.291 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.291 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.292 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.292 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.293 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.293 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.293 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.294 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.294 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.294 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.294 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.295 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.295 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.295 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.296 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.296 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.297 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.297 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.297 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.298 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.298 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.299 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.299 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.299 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.300 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.300 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.300 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.301 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.301 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.301 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.301 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.302 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.302 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.302 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.302 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.302 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.303 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.303 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.303 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.303 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.303 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.303 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.304 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.304 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.304 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.304 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.304 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.305 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.305 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.305 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.305 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.306 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.306 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.306 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.306 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.306 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.306 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.307 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.307 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.307 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.307 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.307 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.307 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.308 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.308 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.308 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.308 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.308 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.309 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.309 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.309 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.310 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.310 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.310 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.310 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.311 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.311 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.311 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.311 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.311 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.311 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.312 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.312 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.312 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.312 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.312 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.312 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.312 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.312 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.312 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.312 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.313 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.313 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.313 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.313 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.313 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.313 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.313 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.313 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.314 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.314 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.314 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.314 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.314 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.314 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.315 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.315 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.315 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.315 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.315 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.315 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.316 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.316 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.316 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.316 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.316 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.316 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.316 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.316 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.317 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.317 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.317 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.317 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.317 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.317 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.317 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.317 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.317 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.317 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.318 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.318 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.318 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.318 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.318 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.318 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.318 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.318 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.319 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.319 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.319 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.319 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.319 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.319 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.320 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.320 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.320 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.320 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.320 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.320 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.320 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.320 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.321 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.321 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.321 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.321 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.321 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.321 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.321 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.322 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.322 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.322 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.322 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.322 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.322 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.322 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.322 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.322 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.323 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.323 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.323 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.323 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.323 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.323 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.324 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.324 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.324 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.324 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.325 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.325 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.325 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.325 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.325 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.325 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.326 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.326 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.326 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.327 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.327 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.327 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.327 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.327 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.328 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.328 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.328 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.328 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.328 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.328 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.329 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.329 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.329 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.329 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.330 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.330 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.330 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.331 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.331 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.331 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.332 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.332 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.332 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.333 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.333 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.333 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.333 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.333 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.334 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.334 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.334 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.334 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.334 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.334 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.334 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.334 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.336 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.336 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.336 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.336 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.337 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.337 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.337 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.337 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.338 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.338 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.338 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.338 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.338 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.338 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.339 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.339 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.339 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.339 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.339 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.339 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.339 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.340 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.340 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.340 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.340 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.340 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.340 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.341 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.341 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.341 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.341 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.341 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.341 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.341 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.342 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.342 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.342 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.342 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.342 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.342 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.343 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.343 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.343 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.343 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.343 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.343 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.343 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.344 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.344 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.344 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.344 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.344 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.345 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.345 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.345 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.345 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.345 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.345 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.346 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.346 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.346 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.346 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.346 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.346 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.347 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.347 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.347 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.347 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.347 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.347 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.348 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.348 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.348 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.348 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.348 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.348 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.349 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.349 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.349 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.349 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.349 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.350 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.350 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.350 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.351 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.351 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.352 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.352 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.352 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.352 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.353 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.353 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.353 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.353 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.353 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.353 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.354 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.354 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.354 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.354 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.354 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.354 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.354 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.354 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.355 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.355 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.356 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.356 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.357 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.357 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.357 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.357 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.357 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.357 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.358 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.360 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.360 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.361 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.361 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.362 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.362 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.363 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.363 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.364 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.364 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.364 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.364 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.364 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.364 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.364 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.364 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.364 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.364 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.365 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.365 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.366 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.366 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.367 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.367 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.367 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.367 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.367 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:52.367 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:52.368 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:52.368 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:52.368 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:52.369 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:52.369 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:52.369 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:52.369 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:52.369 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:52.369 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:52.369 [JavaFX App] TRACE Entity               - Removing all components
+21:39:57.770 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:57.770 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:57.770 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:57.770 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:57.770 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:57.771 [JavaFX App] TRACE Entity               - Removing all components
+21:39:57.859 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:57.859 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:57.859 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:57.859 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:57.859 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:57.859 [JavaFX App] TRACE Entity               - Removing all components
+21:39:59.379 [JavaFX App] DEBUG AssetLoader          - Loading from cache: /assets/textures/ball.png
+21:39:59.380 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.380 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.395 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.395 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.395 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.395 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.396 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.396 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.396 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.396 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.396 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.396 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.396 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.396 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.397 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.397 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.397 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.397 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.398 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.398 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.398 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.398 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.398 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.398 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.398 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.398 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.398 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.398 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.399 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.399 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.399 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.399 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.399 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.399 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.399 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.399 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.399 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.399 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.400 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.400 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.400 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.400 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.400 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.400 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.400 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.400 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.400 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.400 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.401 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.401 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.402 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.402 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.403 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.403 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.404 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.404 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.405 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.405 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.406 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.406 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.407 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.407 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.407 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.407 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.407 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.407 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.407 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.407 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.408 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.408 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.408 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.408 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.408 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.408 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.408 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.408 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.408 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.408 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.409 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.409 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.409 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.409 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.409 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.409 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.409 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.409 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.409 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.409 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.410 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.410 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.410 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.410 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.410 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.410 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.410 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.410 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.411 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.411 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.411 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.411 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.411 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.411 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.412 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.412 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.412 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.412 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.412 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.412 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.412 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.412 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.413 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.413 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.413 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.413 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.413 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.413 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.413 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.413 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.414 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.414 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.414 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.414 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.414 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.414 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.414 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.414 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.415 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.415 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.415 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.415 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.415 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.415 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.415 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.415 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.416 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.416 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.416 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.416 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.416 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.416 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.416 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.416 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.416 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.416 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.417 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.417 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.417 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.417 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.417 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.417 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.417 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.417 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.418 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.418 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.418 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.418 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.419 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.419 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.419 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.419 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.419 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.419 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.420 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.420 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.420 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.420 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.420 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.420 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.420 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.420 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.421 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.421 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.421 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.421 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.421 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.421 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.422 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.422 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.422 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.422 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.422 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.422 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.422 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.422 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.423 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.423 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.423 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.423 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.423 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.423 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.424 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.424 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.424 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.424 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.425 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.425 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.425 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.425 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.425 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.425 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.425 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.426 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.426 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.426 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.427 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.427 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.428 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.428 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.429 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.429 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.429 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.429 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.429 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.429 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.430 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.430 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.430 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.430 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.430 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.430 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.430 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.431 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.431 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.431 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.431 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.431 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.431 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.431 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.431 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.432 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.432 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.432 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.432 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.432 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.432 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.432 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.433 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.433 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.433 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.433 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.433 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.433 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.433 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.433 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.434 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.434 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.434 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.434 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.434 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.434 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.434 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.434 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.435 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.435 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.435 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.435 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.435 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.435 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.436 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.436 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.436 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.436 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.436 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.436 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.437 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.437 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.437 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.437 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.437 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.437 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.437 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.437 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.437 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.438 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.438 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.438 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.438 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.438 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.438 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.439 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.439 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.440 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.440 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.441 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.441 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.442 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.442 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.443 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.443 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.444 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.444 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.445 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.445 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.446 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.446 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.447 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.447 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.448 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.448 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.448 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.448 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.448 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.448 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.448 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.448 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.448 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.449 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.449 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.449 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.449 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.449 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.449 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.449 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.449 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.449 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.450 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.450 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.451 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.451 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.451 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.451 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.451 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.451 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.451 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.451 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.452 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.452 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.452 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.452 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.452 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.452 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.452 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.452 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.453 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.453 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.454 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.454 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.455 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.455 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.455 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.455 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.455 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.455 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.455 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.455 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.456 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.456 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.456 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.456 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.457 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.457 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.457 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.457 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.457 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.457 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.457 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.457 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.458 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.458 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.458 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.458 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.458 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.458 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.458 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.458 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.459 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.459 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.459 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.459 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.459 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.459 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.463 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.463 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.464 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.464 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.464 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.464 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.464 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.464 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.465 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.465 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.465 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.465 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.465 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.465 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.466 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.466 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.467 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.467 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.468 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.468 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.468 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.468 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.469 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.469 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.470 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.470 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.470 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.470 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.471 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.471 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.471 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.471 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.472 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.472 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.473 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.473 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.474 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.474 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.474 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.474 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.474 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.474 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.475 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.475 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.475 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.475 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.476 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.476 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.477 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.477 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.477 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.477 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.478 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.478 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.478 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.478 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.478 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.478 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.478 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.478 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.479 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.479 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.479 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.479 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.479 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.479 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.479 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.479 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.479 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.479 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.480 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.480 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.480 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.480 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.480 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.480 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.480 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.480 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.481 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.481 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.481 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.481 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.481 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.481 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.481 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.481 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.481 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.481 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.482 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.482 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.482 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.482 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.482 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.482 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.482 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.482 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.482 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.482 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.483 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.483 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.483 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.483 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.483 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.483 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.483 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.483 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.483 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.483 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.484 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.484 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.484 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.484 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.484 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.484 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.484 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.484 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.484 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.484 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.485 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.485 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.485 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.485 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.485 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.485 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.485 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.486 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.486 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.486 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.486 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.486 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.486 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.486 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.486 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.486 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.487 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.487 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.487 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.487 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.487 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.487 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.487 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.487 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.487 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.487 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.488 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.488 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.488 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.488 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.488 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.488 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.488 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.488 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.489 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.489 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.489 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.489 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.489 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.489 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.489 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.489 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.490 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.490 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.490 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:39:59.490 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:39:59.492 [JavaFX App] TRACE Entity               - Initializing entity
+21:39:59.492 [JavaFX App] DEBUG GameScene            - Entity added to scene
+21:39:59.492 [JavaFX App] DEBUG GameScene            - Added MainViewComponent
+21:39:59.493 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_ADDED]
+21:39:59.493 [JavaFX App] DEBUG GameScene            - Entity removed from scene
+21:39:59.493 [JavaFX App] DEBUG GameScene            - Removed MainViewComponent
+21:39:59.493 [JavaFX App] DEBUG FXGLEventBus         - Firing event: WorldEvent[type=ENTITY_REMOVED]
+21:39:59.493 [JavaFX App] TRACE Entity               - Cleaning entity
+21:39:59.493 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.493 [JavaFX App] TRACE Entity               - Removing all components
+21:39:59.494 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.494 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.498 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.498 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.508 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.508 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.523 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.523 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.539 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.539 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.555 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.556 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.571 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.571 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.588 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.588 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.603 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.603 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.619 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.619 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.635 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.636 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.651 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.651 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.668 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.668 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.683 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.683 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.699 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.699 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.721 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.721 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.731 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.732 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.754 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.754 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.763 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.763 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.779 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.779 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.812 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.812 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.827 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.827 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.843 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.843 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.859 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.859 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.875 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.875 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.892 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.893 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.907 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.908 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.923 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.923 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.939 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.939 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.955 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.955 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.971 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.972 [JavaFX App] TRACE Entity               - Removing all controls
+21:39:59.987 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:39:59.987 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.003 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.004 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.019 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.020 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.035 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.035 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.051 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.051 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.067 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.067 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.083 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.083 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.099 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.099 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.115 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.115 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.131 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.131 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.147 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.147 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.179 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.179 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.196 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.196 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.211 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.212 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.234 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.234 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.243 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.243 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.259 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.260 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.275 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.275 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.291 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.291 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.307 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.308 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.323 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.323 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.339 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.340 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.355 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.355 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.371 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.371 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.390 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.390 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.403 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.403 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.423 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.424 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.435 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.435 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.451 [JavaFX App] DEBUG GameScene            - Adding UI node: Text[text="Game Over!", x=386.0, y=450.0, alignment=LEFT, origin=BASELINE, boundsType=LOGICAL, font=Font[name=Comic Sans MS, family=Comic Sans MS, style=Regular, size=32.0], fontSmoothingType=GRAY, fill=0xffffffff]
+21:40:00.451 [JavaFX App] TRACE Entity               - Removing all controls
+21:40:00.550 [JavaFX App] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=DIALOG_OPENED]
+21:40:00.551 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=PAUSE]
+21:40:00.551 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:40:00.551 [JavaFX App] DEBUG FXGLMasterTimer      - Stopping master timer
+21:40:00.551 [JavaFX App] DEBUG GameApplication      - State: PLAYING -> PAUSED
+21:40:00.551 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:40:02.358 [JavaFX App] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=DIALOG_CLOSED]
+21:40:02.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=RESUME]
+21:40:02.359 [JavaFX App] DEBUG FXGLInput            - Clearing active input actions
+21:40:02.359 [JavaFX App] DEBUG FXGLMasterTimer      - Starting master timer
+21:40:02.359 [JavaFX App] DEBUG GameApplication      - State: PAUSED -> PLAYING
+21:40:02.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: DisplayEvent[type=CLOSE_REQUEST]
+21:40:02.359 [JavaFX App] DEBUG FXGLEventBus         - Firing event: FXGLEvent[type=EXIT]
+21:40:02.360 [JavaFX App] DEBUG FXGL                 - Saving FXGL system data
+21:40:02.362 [JavaFX App] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+21:40:02.364 [JavaFX App] DEBUG FS                   - Writing to: system\fxgl.bundle
+21:40:02.371 [JavaFX App] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
